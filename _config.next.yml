@@ -1,12 +1,12 @@
 minify: true
 
 favicon:
-  small: /avatar.jpg
-  medium: /avatar.jpg
-  apple_touch_icon: /avatar.jpg
-  safari_pinned_tab: /avatar.jpg
-  android_manifest: /avatar.jpg
-  ms_browserconfig: /avatar.jpg
+  small: /favicon-16x16.ico
+  medium: /favicon-32x32.ico
+  apple_touch_icon: /favicon-128x128.ico
+  safari_pinned_tab: /favicon-64x64.ico
+  android_manifest: /favicon-128x128.ico
+  ms_browserconfig: /favicon-64x64.ico
 
 footer:
   since: 2016
@@ -18,12 +18,6 @@ footer:
 
 disable_baidu_transformation: true
 
-canonical: true
-
-seo: true
-
-exturl: true
-
 google_site_verification: aca2a971997c102c
 
 menu:
@@ -34,16 +28,11 @@ menu:
 scheme: Gemini
 darkmode: true
 
-# Social Links
-# Usage: `Key: permalink || icon`
-# Key is the link label showing to end users.
-# Value before `||` delimiter is the target permalink.
-# Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
   Twitter: https://twitter.com/kemchenj || fab fa-twitter
   Telegram: https://t.me/kemchenj || fab fa-telegram
-  E-Mail: mailto:chenkem@gmail.com || fa fa-envelope-o
-  Resume: /resume.html || fa fa-address-book-o
+  E-Mail: mailto:chenkem@gmail.com || fas fa-envelope
+  Resume: /resume.html || fa fa-address-book
 
 links_settings:
   title: 推荐的博客
@@ -55,42 +44,14 @@ links:
   喵神博客: https://onevcat.com
   Objective-C 中国: https://objccn.io/issues/
 
-# Sidebar Avatar
 avatar:
-  # In theme directory (source/images): /images/avatar.gif
-  # In site directory (source/uploads): /uploads/avatar.gif
-  # You can also use other linking images.
-  url: avatar.jpg
-  # If true, the avatar would be dispalyed in circle.
-  rounded: false
-  # If true, the avatar would be rotated with the cursor.
-  rotated: false
+  url: /images/avatar.jpg
 
 toc:
   expand_all: true
 
 back2top:
   sidebar: true
-
-
-# ---------------------------------------------------------------
-# Post Settings
-# See: https://theme-next.org/docs/theme-settings/posts
-# ---------------------------------------------------------------
-
-# Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: false
-
-# Automatically saving scroll position of each page in the browser.
-save_scroll: false
-
-# Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
-
-
-# ---------------------------------------------------------------
-# Misc Theme Settings
-# ---------------------------------------------------------------
 
 mobile_layout_economy: true
 
