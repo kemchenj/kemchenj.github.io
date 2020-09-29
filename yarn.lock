@@ -1578,6 +1578,11 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
+hexo-theme-next@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npm.taobao.org/hexo-theme-next/download/hexo-theme-next-8.0.0.tgz#66f5492bc6cb0090efd85270b2a52762aa8049b3"
+  integrity sha1-ZvVJK8bLAJDv2FJwsqUnYqqASbM=
+
 hexo-util@^1.0.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/hexo-util/download/hexo-util-1.9.1.tgz#15dc10d0dca474c978cdba9c20e8d0417ac993de"
