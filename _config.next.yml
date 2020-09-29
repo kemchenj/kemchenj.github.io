@@ -56,6 +56,9 @@ back2top:
 mobile_layout_economy: true
 
 codeblock:
+  prism:
+    light: prism
+    dark: prism-okaidia
   copy_button:
     enable: true
     style: mac
