@@ -116,9 +116,6 @@ search:
   format: html
   limit: 10000
 
-sitemap:
-  path: sitemap.xml
-
 archive_generator:
   per_page: 30
   yearly: true
