@@ -85,5 +85,8 @@ local_search:
 motion:
   enable: false
 
+vendors:
+  internal: jsdelivr
+
 custom_file_path:
   variable: source/_data/variables.styl
