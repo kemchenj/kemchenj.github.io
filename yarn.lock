@@ -1574,9 +1574,9 @@ hexo-server@^2.0.0:
     serve-static "^1.14.1"
 
 hexo-theme-next@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-theme-next/download/hexo-theme-next-8.0.0.tgz#66f5492bc6cb0090efd85270b2a52762aa8049b3"
-  integrity sha1-ZvVJK8bLAJDv2FJwsqUnYqqASbM=
+  version "8.0.1"
+  resolved "https://registry.npm.taobao.org/hexo-theme-next/download/hexo-theme-next-8.0.1.tgz#608e085e4f6d8cbd0f0adad0d5e6e7c5ccfb1577"
+  integrity sha1-YI4IXk9tjL0PCtrQ1ebnxcz7FXc=
 
 hexo-util@^1.0.0:
   version "1.9.1"
