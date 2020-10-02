@@ -63,6 +63,10 @@ codeblock:
     enable: true
     style: mac
 
+symbols_count_time:
+  separated_meta: false
+  item_text_total: true
+
 github_banner:
   enable: true
   permalink: https://github.com/kemchenj

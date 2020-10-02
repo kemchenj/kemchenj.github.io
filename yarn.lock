@@ -1578,6 +1578,21 @@ hexo-theme-next@^8.0.0:
   resolved "https://registry.npm.taobao.org/hexo-theme-next/download/hexo-theme-next-8.0.1.tgz#608e085e4f6d8cbd0f0adad0d5e6e7c5ccfb1577"
   integrity sha1-YI4IXk9tjL0PCtrQ1ebnxcz7FXc=
 
+hexo-util@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/hexo-util/download/hexo-util-2.1.0.tgz#2c691a034a05d4ed254696c2e99d7cb686fdd350"
+  integrity sha1-LGkaA0oF1O0lRpbC6Z18tob901A=
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^10.0.0"
+    htmlparser2 "^4.0.0"
+    prismjs "^1.17.1"
+    strip-indent "^3.0.0"
+    striptags "^3.1.1"
+
 hexo-util@^1.0.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/hexo-util/download/hexo-util-1.9.1.tgz#15dc10d0dca474c978cdba9c20e8d0417ac993de"
@@ -1608,6 +1623,13 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0:
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
     striptags "^3.1.1"
+
+hexo-word-counter@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/hexo-word-counter/download/hexo-word-counter-0.0.2.tgz#8da66f33f3b27881e8429076d80647cc8309567a"
+  integrity sha1-jaZvM/OyeIHoQpB22AZHzIMJVno=
+  dependencies:
+    hexo-util "2.1.0"
 
 hexo@^5.2.0:
   version "5.2.0"
