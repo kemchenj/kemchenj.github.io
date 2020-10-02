@@ -45,7 +45,9 @@ avatar:
   url: /images/avatar.jpg
 
 toc:
+  number: false
   expand_all: true
+  max_depth: 3
 
 back2top:
   sidebar: true
