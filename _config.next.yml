@@ -51,6 +51,7 @@ toc:
 
 back2top:
   sidebar: true
+  scrollpercent: true
 
 mobile_layout_economy: true
 
