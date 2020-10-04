@@ -9,11 +9,9 @@ date: 2017-09-15 00:01
 
 个人履历：
 
-- 2016 年开始学习编程，**量产型 iOS  菜鸟，基础恶补中**；
-- 2016 年加入 [SwiftGG](http://swift.gg)，参与翻译技术文章；
-- 2017 年参与[《WWDC 17内参》](https://xiaozhuanlan.com/wwdc17)，负责其中三个小节；
-- 2017 年参与 [Swift 4.0 中文文档](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)的[翻译更新工作](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese/blob/gh-pages/source/chapter2/27_contributors.md)；
-- 2018 年参与 [iOS 周报](https://github.com/SwiftOldDriver/iOS-Weekly) 至今。
-- 2018 年参与[《老司机x知识小集xSwiftGG WWDC 18 专题目录》](https://juejin.im/post/5b1d284df265da6e572b3d87)，负责其中一个小节；
-- 2018 年参与[《SwiftOldDriver 精选》](https://xiaozhuanlan.com/olddriver-selection)；
-
+- [iOS 周报](https://github.com/SwiftOldDriver/iOS-Weekly)编辑 2018 - 至今
+- WWDC 内参：
+    - 2020：[WWDC20 内参](https://xiaozhuanlan.com/wwdc20)
+    - 2018：[老司机x知识小集xSwiftGG WWDC 18 专题目录](https://juejin.im/post/5b1d284df265da6e572b3d87)
+    - 2017：[WWDC 17内参](https://xiaozhuanlan.com/wwdc17)
+- [Swift 官方文档](https://swift.org/documentation/)的[翻译更新工作(4.0)](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)
