@@ -28,7 +28,8 @@
     "uglify-es": "^3.3.9"
   },
   "scripts": {
-    "deploy": "hexo clean && hexo g && gulp && hexo d",
+    "generate": "hexo clean && hexo generate && gulp",
+    "deploy": "yarn run generate && hexo d",
     "server": "hexo server"
   },
   "resolutions": {

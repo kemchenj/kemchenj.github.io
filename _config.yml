@@ -104,9 +104,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    github: https://github.com/kemchenj/kemchenj.github.io.git
+  repo: https://github.com/kemchenj/kemchenj.github.io.git
   branch: master
+  token: $ACCESS_TOKEN
 
 # Search
 ## Search Content
