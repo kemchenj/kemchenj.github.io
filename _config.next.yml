@@ -72,6 +72,9 @@ github_banner:
   permalink: https://github.com/kemchenj
   title: Follow me on GitHub
 
+comments:
+  lazyload: true
+
 gitalk:
   enable: true
   github_id: kemchenj # GitHub repo owner
