@@ -15,9 +15,12 @@ comments: false
 
 ## 个人经历
 
-* 参与 Swift 4.0 官方文档的翻译更新工作
-* [iOS Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) 周报成员之一
-* 参与[《iOS成长之路3期·WWDC17内参》](http://www.jianshu.com/p/6bb742d705c0)编写
+* [iOS Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) 周报编辑
+- 参与每年的 WWDC 内参：
+    - 2020：[WWDC20 内参](https://xiaozhuanlan.com/wwdc20)
+    - 2018：[老司机x知识小集xSwiftGG WWDC 18 专题目录](https://juejin.im/post/5b1d284df265da6e572b3d87)
+    - 2017：[WWDC 17内参](https://xiaozhuanlan.com/wwdc17)
+- [Swift 官方文档](https://swift.org/documentation/)的[翻译更新工作(4.0)](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)
 
 ## 工作经历
 
