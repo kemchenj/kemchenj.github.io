@@ -30,7 +30,7 @@ social:
   Twitter: https://twitter.com/kemchenj || fab fa-twitter
   Telegram: https://t.me/kemchenj || fab fa-telegram
   E-Mail: mailto:chenkem@gmail.com || fas fa-envelope
-  Resume: /resume.html || fa fa-address-book
+  RSS: https://kemchenj.github.io/atom.xml || fas fa-rss
 
 links_settings:
   title: 推荐的博客
