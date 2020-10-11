@@ -18,7 +18,7 @@ comments: false
 ## 个人经历
 
 * [iOS Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) 周报编辑
-- 参与每年的 WWDC 内参：
+- 参与 WWDC 内参：
     - 2020：[WWDC20 内参](https://xiaozhuanlan.com/wwdc20)
     - 2018：[老司机x知识小集xSwiftGG WWDC 18 专题目录](https://juejin.im/post/5b1d284df265da6e572b3d87)
     - 2017：[WWDC 17内参](https://xiaozhuanlan.com/wwdc17)
