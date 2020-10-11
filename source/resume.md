@@ -1,4 +1,6 @@
 ---
+title: 简历
+header: false
 comments: false
 ---
 
@@ -35,14 +37,14 @@ comments: false
 技术栈：
 
 * 客户端包括了**股市资讯**、**行情图表**、**UGC 社区**等股票资讯 App 功能
-* 纯 Swift 编写，MVC 架构，横向拓展主要依赖于多个 Controller 进行逻辑切分
-* 部分复杂页面使用 ReactorKit + RxSwift 完成
-* 参与部分核心模块及其测试代码的编写
+* 纯 Swift 编写，MVC + Service，复杂页面使用 Child Controller 进行页面切分，使用类 Flux 框架进行状态管理
+* 参与核心模块编写，路由/内购/列表封装/页面结构封装等等
 
 工程管理：
 
 * 参与制定团队 Git 规范，使用 GitFlow 模型进行分支管理，通过 GitLab Flow 进行协作
-* 使用 Fastlane 自动化证书管理，production deploy 和 beta deploy 等流程
+* 维护自动化脚本，使用 GitLab CI + Fastlane 自动化部署，每日构建和符号文件的上传
+* 引入 Danger + SwiftLint/SwiftFormat 自动化部分 Code Review 的工作
 
 ### 每日美妆（2016.09 - 2017.08）[#](https://itunes.apple.com/cn/app/%E6%AF%8F%E6%97%A5%E7%BE%8E%E5%A6%86/id1146429761?l=en&amp;mt=8) 
 
