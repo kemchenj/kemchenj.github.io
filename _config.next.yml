@@ -42,6 +42,8 @@ links:
   喵神博客: https://onevcat.com
   Objective-C 中国: https://objccn.io/issues/
 
+preconnect: true
+
 avatar:
   url: /images/avatar.jpg
 
