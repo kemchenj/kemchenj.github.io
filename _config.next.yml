@@ -72,8 +72,8 @@ symbols_count_time:
 
 github_banner:
   enable: true
-  permalink: https://github.com/kemchenj
-  title: Follow me on GitHub
+  permalink: https://github.com/kemchenj/kemchenj.github.io
+  title: Source Code
 
 utterances:
   enable: true
