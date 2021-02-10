@@ -29,8 +29,5 @@
   "scripts": {
     "generate": "hexo clean && hexo generate && gulp",
     "server": "hexo server"
-  },
-  "resolutions": {
-    "stylus": "^0.54.8"
   }
 }
