@@ -32,6 +32,7 @@
   },
   "scripts": {
     "generate": "hexo clean && hexo generate && gulp",
-    "server": "hexo server"
+    "server": "hexo server",
+    "minify-image": "node minify-image.js"
   }
 }
