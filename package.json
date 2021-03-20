@@ -23,8 +23,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-theme-next": "^8.2.2",
-    "hexo-word-counter": "^0.0.3",
-    "uglify-es": "^3.3.9"
+    "hexo-word-counter": "^0.0.3"
   },
   "resolutions": {
     "//": "Silent warnings since Node 14, could be remove after https://github.com/stylus/nib/pull/348 released.",

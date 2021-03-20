@@ -1,17 +1,10 @@
 var gulp = require('gulp');
 
 gulp.task('minify-js', function (cb) {
-  var uglify = require('uglify-es');
-  var composer = require('gulp-uglify/composer');
-  var pump = require('pump');
-  var minify = composer(uglify, console);
-  pump([
-    gulp.src('./public/**/*.js'),
-    minify({}),
-    gulp.dest('./public')
-  ],
-    cb
-  );
+  var uglify = require('gulp-uglify');
+  return gulp.src('./public/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./public'));
 });
 
 // 压缩 public 目录 css
