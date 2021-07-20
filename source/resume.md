@@ -19,6 +19,7 @@ comments: false
 
 - [iOS Weekly](https://github.com/SwiftOldDriver/iOS-Weekly) 周报编辑
 - 参与 WWDC 内参：
+  - 2021：[WWDC20 内参](https://xiaozhuanlan.com/wwdc21)
   - 2020：[WWDC20 内参](https://xiaozhuanlan.com/wwdc20)
   - 2018：[老司机x知识小集xSwiftGG WWDC 18 专题目录](https://juejin.im/post/5b1d284df265da6e572b3d87)
   - 2017：[WWDC 17内参](https://xiaozhuanlan.com/wwdc17)
@@ -36,16 +37,20 @@ comments: false
 
 技术栈：
 
-- iOS 客户端使用 Swift 编写，MVC + Service，复杂页面使用 Child Controller 进行页面切分，状态管理采取类 Flux 的方式
-- 参与核心模块编写，路由/内购/列表封装/页面结构封装等等
+- iOS 客户端使用 Swift 编写，MVC + Service，页面组件使用 Child Controller 进行封装
+- 封装了一套基于 Middleware 的页面路由方案
+- 引入 Flex，统一业务层的布局逻辑
+- 引入 IGListKit，加上内部封装的列表嵌套方案，统一业务层的列表逻辑
+- 部分基础模块引入单元测试保证代码可靠性
 
 工程管理：
 
-- 参与制定团队 Git 规范，使用 GitFlow 模型进行分支管理，通过 GitLab Flow 进行协作
-- 维护自动化脚本，使用 GitLab CI + Fastlane 自动化部署，每日构建和符号文件的上传
+- 使用 GitLab Flow 进行协作，所有代码修改都必须通过 code review 和编译测试才能合并
+- 使用 GitLab CI + Fastlane 自动化部署，每日构建和符号文件的上传
 - 引入 Danger + SwiftLint/SwiftFormat 自动化部分 Code Review 的工作
+- 近两年的线上崩溃率保持在 0.001% 以下
 
-### 每日美妆（2016.07 - 2017.09）[#](https://itunes.apple.com/cn/app/%E6%AF%8F%E6%97%A5%E7%BE%8E%E5%A6%86/id1146429761) 
+### 每日美妆（2016.09 - 2017.07）[#](https://itunes.apple.com/cn/app/%E6%AF%8F%E6%97%A5%E7%BE%8E%E5%A6%86/id1146429761) 
 
 #### 项目介绍
 
