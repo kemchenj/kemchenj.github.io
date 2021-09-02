@@ -1619,10 +1619,10 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-next@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.7.0.tgz#c0710d797a5746ccf0a8693c7a1cd9ec2e8d0697"
-  integrity sha512-lTrXk3kDBSy645iPImiPHieSIvZPzZDDbQZypD4O96ZlVIb9/PO9z7xzSNxROFm4LCyZMF2a8bJEuq5nVkxZRQ==
+hexo-theme-next@^8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.7.1.tgz#0c8a5ceda6baa7d77d5de925d36dd885db35b980"
+  integrity sha512-eJstBtUSyyLFJ8CpwkJ/1/XVuibaLzgVqPwZuh55kOGKubfJ6mSP/RFKex3kly5LCwCTZSSNGbuhNeJaz2Z67Q==
 
 hexo-util@2.4.0:
   version "2.4.0"
