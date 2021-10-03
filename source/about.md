@@ -13,9 +13,10 @@ comments: false
 
 - [iOS 周报](https://github.com/SwiftOldDriver/iOS-Weekly)编辑 2018 - 至今
 - WWDC 内参：
+    - 2021：[WWDC21 内参](https://xiaozhuanlan.com/wwdc21)校对审核
     - 2020：[WWDC20 内参](https://xiaozhuanlan.com/wwdc20)
     - 2018：[老司机x知识小集xSwiftGG WWDC 18 专题目录](https://juejin.im/post/5b1d284df265da6e572b3d87)
     - 2017：[WWDC 17内参](https://xiaozhuanlan.com/wwdc17)
-- [Swift 官方文档](https://swift.org/documentation/)的[翻译更新工作(4.0)](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)
+- [Swift 官方文档](https://swift.org/documentation/)的[翻译更新工作(3.x - 4.x)](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)
 
 [简历地址](/resume)
