@@ -1384,15 +1384,6 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-htmlclean@^2.7.22:
-  version "2.7.22"
-  resolved "https://registry.yarnpkg.com/gulp-htmlclean/-/gulp-htmlclean-2.7.22.tgz#a7811de8d1221122ae60d660ca0170b65b698dde"
-  integrity sha1-p4Ed6NEiESKuYNZgygFwtltpjd4=
-  dependencies:
-    htmlclean "~3.0.8"
-    plugin-error "^1.0.1"
-    through2 "^2.0.3"
-
 gulp-htmlmin@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/gulp-htmlmin/-/gulp-htmlmin-5.0.1.tgz#90fc5e8ad0425a9e86d5d521427184e7276365e7"
@@ -1729,11 +1720,6 @@ html-minifier@^3.5.20:
     param-case "2.1.x"
     relateurl "0.2.x"
     uglify-js "3.4.x"
-
-htmlclean@~3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/htmlclean/-/htmlclean-3.0.8.tgz#cea451cf5399d4018386a57129489f2d630e62b0"
-  integrity sha1-zqRRz1OZ1AGDhqVxKUifLWMOYrA=
 
 htmlparser2@^4.0.0:
   version "4.1.0"
