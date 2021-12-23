@@ -10,7 +10,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.0",
     "gulp-uglify": "^3.0.0",
-    "hexo": "^5.4.0",
+    "hexo": "^6.0.0",
     "hexo-cli": "^4.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
