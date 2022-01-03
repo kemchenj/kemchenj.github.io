@@ -23,10 +23,6 @@
     "hexo-theme-next": "^8.9.0",
     "hexo-word-counter": "^0.0.3"
   },
-  "resolutions": {
-    "//": "Silent warnings since Node 14, could be remove after https://github.com/stylus/nib/pull/348 released.",
-    "hexo-renderer-stylus/nib": "stylus/nib#8291e5d20e400e04892a0b1261e2a81773d07fb4"
-  },
   "scripts": {
     "generate": "hexo clean && hexo generate && gulp",
     "server": "hexo server",
