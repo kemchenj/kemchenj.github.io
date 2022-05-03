@@ -94,14 +94,5 @@ vendors:
   internal: jsdelivr
 
 custom_file_path:
-  head: source/_data/head.njk
   variable: source/_data/variables.styl
   style: source/_data/styles.styl
-
-# Google Analytics
-# See: https://analytics.google.com
-google_analytics:
-  tracking_id: UA-82782206-1
-  # By default, NexT will load an external gtag.js script on your site.
-  # If you only need the pageview feature, set the following option to true to get a better performance.
-  only_pageview: false
