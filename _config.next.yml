@@ -91,7 +91,7 @@ motion:
   enable: false
 
 vendors:
-  internal: jsdelivr
+  internal: cdnjs
 
 custom_file_path:
   variable: source/_data/variables.styl
