@@ -1,16 +1,24 @@
-name: Deploy My Blog
+name: Deploy site to Pages
 
 on:
   push:
-    branches:
-      - source
+    branches: [source]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v2
 
     - name: Install Node.js dependencies
       run: npm install
@@ -18,10 +26,18 @@ jobs:
     - name: Generate
       run: npm run generate
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+        path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
