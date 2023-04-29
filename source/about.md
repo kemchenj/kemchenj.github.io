@@ -5,7 +5,7 @@ comments: false
 ---
 <!--<img src="images/15054688829100.webp" alt="图1.4" title="图1.4" width="200"/>-->
 
-博客里大部分是技术文章的翻译，偶尔自己写写文章总结，欢迎可以留言一起交流。也可以通过 [Twitter](http://twitter.com/kemchenj) || [Email](chenkem@gmail.com) || [Telegram](https://t.me/kemchenj) 联系我，希望跟多一些热爱技术的人做朋友，叫我**四娘**就可以了。
+博客里大部分是技术文章的翻译，偶尔自己写写文章总结，欢迎可以留言一起交流。也可以通过 [Twitter](http://twitter.com/kemchenj) || [Email](mailto:chenkem@gmail.com) || [Telegram](https://t.me/kemchenj) 联系我，希望跟多一些热爱技术的人做朋友，叫我**四娘**就可以了。
 
 如果想要转载文章的话，请自便，右上角入口可以直接获取到 markdown 源文件，作者和来源都可以不标，不要洗稿即可。
 
