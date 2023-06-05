@@ -13,7 +13,11 @@ module.exports = function(grunt) {
       files: {
         expand: true,
         cwd: 'public/',
-        src: ['**/*.html'],
+        src: [
+          '**/*.html',
+          'atom.xml',
+          'sitemap.xml',
+        ],
         dest: 'public/',
       }
     },
