@@ -28,19 +28,16 @@ darkmode: true
 
 social:
   Twitter: https://twitter.com/kemchenj || fab fa-twitter
-  E-Mail: mailto:chenkem@gmail.com || fas fa-envelope
-  Resume: /resume || fa fa-address-book
   RSS: https://kemchenj.github.io/atom.xml || fas fa-rss
 
-links_settings:
-  title: 推荐的博客
 links:
-  iOS 周报: https://github.com/SwiftOldDriver/iOS-Weekly
+  老司机 iOS 周报: https://github.com/SwiftOldDriver/iOS-Weekly/releases
   iOS Dev Weekly: https://iosdevweekly.com
-  Swift Weekly Brief: https://swiftweekly.github.io
   SwiftGG: http://swift.gg/
   喵神博客: https://onevcat.com
   Objective-C 中国: https://objccn.io/issues/
+  13 周报: https://www.ethanhuang13.com
+  波报: https://pofat.substack.com
 
 preconnect: true
 
@@ -66,10 +63,6 @@ codeblock:
     enable: true
     style: mac
 
-symbols_count_time:
-  separated_meta: false
-  item_text_total: true
-
 github_banner:
   enable: true
   permalink: https://github.com/kemchenj/kemchenj.github.io
@@ -84,6 +77,7 @@ motion:
 
 vendors:
   internal: cdnjs
+  plugins: cdnjs
 
 custom_file_path:
   variable: source/_data/variables.styl

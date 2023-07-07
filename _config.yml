@@ -112,9 +112,3 @@ archive_generator:
   per_page: 30
   yearly: true
   monthly: true
-
-symbols_count_time:
-  symbols: true
-  time: false
-  total_symbols: false
-  total_time: false
