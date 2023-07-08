@@ -103,10 +103,7 @@ theme: next
 # Search
 ## Search Content
 search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+  path: search.json
 
 archive_generator:
   per_page: 30
