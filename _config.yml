@@ -109,3 +109,7 @@ archive_generator:
   per_page: 30
   yearly: true
   monthly: true
+
+server:
+  compress: true
+  cache: false

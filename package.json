@@ -24,7 +24,7 @@
   },
   "scripts": {
     "generate": "hexo clean && hexo generate && grunt",
-    "server": "hexo server",
+    "server": "hexo server -o",
     "minify-image": "node minify-image.js"
   }
 }
