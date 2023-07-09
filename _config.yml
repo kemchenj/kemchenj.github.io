@@ -104,6 +104,7 @@ theme: next
 ## Search Content
 search:
   path: search.json
+  format: striptags
 
 archive_generator:
   per_page: 30
