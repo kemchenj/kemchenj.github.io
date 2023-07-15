@@ -6,10 +6,6 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "grunt": "^1.6.1",
-    "grunt-contrib-cssmin": "^5.0.0",
-    "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-uglify": "^5.2.2",
     "hexo": "^6.3.0",
     "hexo-cli": "^4.3.1",
     "hexo-generator-archive": "^2.0.0",
@@ -17,13 +13,14 @@
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
+    "hexo-optimize": "^3.3.0",
     "hexo-renderer-marked": "^6.1.1",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "^8.17.1"
   },
   "scripts": {
-    "generate": "hexo clean && hexo generate && grunt",
+    "generate": "hexo clean && hexo generate",
     "server": "hexo server -o",
     "minify-image": "node minify-image.js"
   }
