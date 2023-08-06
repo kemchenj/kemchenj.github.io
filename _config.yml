@@ -118,15 +118,12 @@ server:
 filter_optimize:
   enable: true
   # static resource versioning
-  versioning: false
+  versioning: true
   css:
     # minify all css files
     minify: true
-    excludes:
-    # use preload to load css elements dynamically
-    delivery:
-      - '@fortawesome/fontawesome-free'
-      - 'fonts.googleapis.com'
+    excludes: []
+    delivery: []
     # make specific css content inline into the html page
     inlines:
       # support full path only
@@ -136,7 +133,7 @@ filter_optimize:
     minify: true
     excludes:
     # remove the comments in each of the js files
-    remove_comments: false
+    remove_comments: true
   html:
     # minify all html files
     minify: true
