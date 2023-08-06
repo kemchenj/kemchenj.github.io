@@ -9,7 +9,7 @@ description: Hackable life?
 keywords:
 author: 四娘
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -91,9 +91,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+include: []
+exclude: []
+ignore: []
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -131,13 +131,13 @@ filter_optimize:
   js:
     # minify all js files
     minify: true
-    excludes:
+    excludes: []
     # remove the comments in each of the js files
     remove_comments: true
   html:
     # minify all html files
     minify: true
-    excludes:
+    excludes: []
   # set the priority of this plugin,
   # lower means it will be executed first, default of Hexo is 10
   priority: 12
