@@ -20,7 +20,7 @@
     "hexo-theme-next": "git@github.com:kemchenj/hexo-theme-next.git#feat/inline_fontawesome"
   },
   "scripts": {
-    "generate": "hexo clean && hexo generate",
+    "generate": "hexo generate",
     "server": "hexo server -o -s",
     "minify-image": "node minify-image.js"
   }
