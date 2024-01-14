@@ -8,13 +8,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
-    reviewers:
-      - "kemchenj"
+      interval: "weekly"
 
   - package-ecosystem: "github-actions" 
     directory: "/"
     schedule:
-      interval: "daily"
-    reviewers:
-      - "kemchenj"
+      interval: "weekly"
