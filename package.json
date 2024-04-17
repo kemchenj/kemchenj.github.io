@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.0.0"
+    "version": "7.1.1"
   },
   "dependencies": {
     "hexo": "^7.1.1",
@@ -13,11 +13,11 @@
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
-    "hexo-optimize": "git@github.com/kemchenj/hexo-optimize.git#main",
+    "hexo-optimize": "github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750",
     "hexo-renderer-marked": "^6.3.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-next": "git@github.com:kemchenj/hexo-theme-next.git#feat/inline_fontawesome"
+    "hexo-theme-next": "^8.19.2"
   },
   "scripts": {
     "generate": "hexo generate",
