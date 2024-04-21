@@ -20,6 +20,7 @@
     "hexo-theme-next": "^8.19.2"
   },
   "scripts": {
+    "clean": "hexo clean",
     "generate": "hexo generate",
     "server": "hexo server -o -s",
     "minify-image": "node minify-image.js"
