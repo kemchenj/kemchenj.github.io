@@ -30,9 +30,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1(chokidar@3.6.0)
       hexo-optimize:
-        specifier: https://github.com/next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
+        specifier: github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
         version: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750
-
       hexo-renderer-marked:
         specifier: ^6.3.0
         version: 6.3.0
