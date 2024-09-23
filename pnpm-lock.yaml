@@ -31,7 +31,7 @@ importers:
         version: 3.0.1(chokidar@3.6.0)
       hexo-optimize:
         specifier: github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
-        version: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750
+        version: git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750
       hexo-renderer-marked:
         specifier: ^6.3.0
         version: 6.3.0
@@ -42,8 +42,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-next:
-        specifier: ^8.20.0
-        version: 8.20.0
+        specifier: ^8.21.0
+        version: 8.21.0
 
 packages:
 
@@ -420,8 +420,8 @@ packages:
     resolution: {integrity: sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==}
     engines: {node: '>=14'}
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
-    resolution: {tarball: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750}
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
+    resolution: {commit: 5eb85e25238ac4948b402da717c3c62fd30d2750, repo: git@github.com:next-theme/hexo-optimize.git, type: git}
     version: 3.3.0
 
   hexo-pagination@3.0.0:
@@ -440,8 +440,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-next@8.20.0:
-    resolution: {integrity: sha512-cLKE32mP6B2E84+4XUXOgZhaI+srndHAviVpDaz8S7fj4OTnRchWg1anbhpZTFAgMO0NSRs4A0kT61eXY3l/Gg==}
+  hexo-theme-next@8.21.0:
+    resolution: {integrity: sha512-O0xKsX73QJSOfPs8R+Kd1sFbJQhy0Od3NsoN5uR717IXjK4xn2w9x+GlSijEfh96JkhCIQOOPS5xBtzsfpjE6A==}
 
   hexo-util@2.7.0:
     resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
@@ -1355,7 +1355,7 @@ snapshots:
     dependencies:
       picocolors: 1.0.0
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
     dependencies:
       bluebird: 3.7.2
       cargo-cp-artifact: 0.1.8
@@ -1397,7 +1397,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-next@8.20.0: {}
+  hexo-theme-next@8.21.0: {}
 
   hexo-util@2.7.0:
     dependencies:
