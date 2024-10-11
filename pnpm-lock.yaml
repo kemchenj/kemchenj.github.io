@@ -31,7 +31,7 @@ importers:
         version: 3.0.1(chokidar@3.6.0)
       hexo-optimize:
         specifier: github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
-        version: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750
+        version: git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750
       hexo-renderer-marked:
         specifier: ^6.3.0
         version: 6.3.0
@@ -145,6 +145,10 @@ packages:
 
   braces@3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
+    engines: {node: '>=8'}
+
+  braces@3.0.3:
+    resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
   buffer-from@1.1.2:
@@ -342,6 +346,10 @@ packages:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
 
+  fill-range@7.1.1:
+    resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
+    engines: {node: '>=8'}
+
   finalhandler@1.1.2:
     resolution: {integrity: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==}
     engines: {node: '>= 0.8'}
@@ -420,8 +428,8 @@ packages:
     resolution: {integrity: sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==}
     engines: {node: '>=14'}
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
-    resolution: {tarball: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750}
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
+    resolution: {commit: 5eb85e25238ac4948b402da717c3c62fd30d2750, repo: git@github.com:next-theme/hexo-optimize.git, type: git}
     version: 3.3.0
 
   hexo-pagination@3.0.0:
@@ -622,8 +630,8 @@ packages:
   micro-memoize@4.1.2:
     resolution: {integrity: sha512-+HzcV2H+rbSJzApgkj0NdTakkC+bnyeiUxgT6/m7mjcz1CmM22KYFKp+EVj1sWe4UYcnriJr5uqHQD/gMHLD+g==}
 
-  micromatch@4.0.5:
-    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
+  micromatch@4.0.8:
+    resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
   mime-db@1.52.0:
@@ -1070,6 +1078,10 @@ snapshots:
     dependencies:
       fill-range: 7.0.1
 
+  braces@3.0.3:
+    dependencies:
+      fill-range: 7.1.1
+
   buffer-from@1.1.2: {}
 
   bytes@3.0.0: {}
@@ -1248,6 +1260,10 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
+  fill-range@7.1.1:
+    dependencies:
+      to-regex-range: 5.0.1
+
   finalhandler@1.1.2:
     dependencies:
       debug: 2.6.9
@@ -1342,7 +1358,7 @@ snapshots:
   hexo-generator-sitemap@3.0.1(chokidar@3.6.0):
     dependencies:
       hexo-util: 2.7.0
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       nunjucks: 3.2.4(chokidar@3.6.0)
     transitivePeerDependencies:
       - chokidar
@@ -1355,12 +1371,12 @@ snapshots:
     dependencies:
       picocolors: 1.0.0
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
     dependencies:
       bluebird: 3.7.2
       cargo-cp-artifact: 0.1.8
       lightningcss: 1.24.1
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       terser: 5.31.0
 
   hexo-pagination@3.0.0: {}
@@ -1433,7 +1449,7 @@ snapshots:
       hexo-util: 3.3.0
       js-yaml: 4.1.0
       js-yaml-js-types: 1.0.1(js-yaml@4.1.0)
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       moize: 6.1.6
       moment: 2.30.1
       moment-timezone: 0.5.45
@@ -1624,9 +1640,9 @@ snapshots:
 
   micro-memoize@4.1.2: {}
 
-  micromatch@4.0.5:
+  micromatch@4.0.8:
     dependencies:
-      braces: 3.0.2
+      braces: 3.0.3
       picomatch: 2.3.1
 
   mime-db@1.52.0: {}
