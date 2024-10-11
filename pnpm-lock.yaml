@@ -31,7 +31,7 @@ importers:
         version: 3.0.1(chokidar@3.6.0)
       hexo-optimize:
         specifier: github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
-        version: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750
+        version: git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750
       hexo-renderer-marked:
         specifier: ^6.3.0
         version: 6.3.0
@@ -420,8 +420,8 @@ packages:
     resolution: {integrity: sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==}
     engines: {node: '>=14'}
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
-    resolution: {tarball: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750}
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
+    resolution: {commit: 5eb85e25238ac4948b402da717c3c62fd30d2750, repo: git@github.com:next-theme/hexo-optimize.git, type: git}
     version: 3.3.0
 
   hexo-pagination@3.0.0:
@@ -963,8 +963,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.17.0:
-    resolution: {integrity: sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==}
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -1355,7 +1355,7 @@ snapshots:
     dependencies:
       picocolors: 1.0.0
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
+  hexo-optimize@git+https://git@github.com:next-theme/hexo-optimize.git#5eb85e25238ac4948b402da717c3c62fd30d2750:
     dependencies:
       bluebird: 3.7.2
       cargo-cp-artifact: 0.1.8
@@ -1566,7 +1566,7 @@ snapshots:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.17.0
+      ws: 8.18.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -1943,7 +1943,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.17.0: {}
+  ws@8.18.0: {}
 
   xml-name-validator@4.0.0: {}
 
