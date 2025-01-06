@@ -14,7 +14,7 @@
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-optimize": "github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750",
-    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-marked": "^7.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "^8.21.1"
