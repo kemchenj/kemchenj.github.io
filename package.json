@@ -24,5 +24,11 @@
     "generate": "hexo generate",
     "server": "hexo server -o -s",
     "minify-image": "node minify-image.js"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "hexo-optimize",
+      "hexo-util"
+    ]
   }
 }
