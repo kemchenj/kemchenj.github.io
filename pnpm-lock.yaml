@@ -42,8 +42,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-next:
-        specifier: ^8.22.0
-        version: 8.22.0
+        specifier: github:kemchenj/hexo-theme-next#59bc177b0fdd09a54660bcd883cb72da10f4e94e
+        version: https://codeload.github.com/kemchenj/hexo-theme-next/tar.gz/59bc177b0fdd09a54660bcd883cb72da10f4e94e
 
 packages:
 
@@ -405,8 +405,9 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-next@8.22.0:
-    resolution: {integrity: sha512-5ygjwme0LUlwmeuyHAll8977PAGbepUzit9N4cxQEW2jDMiEMQDWZj8GaTJ1dMzJ67RXQCIIVOwxlQ8jywYIMg==}
+  hexo-theme-next@https://codeload.github.com/kemchenj/hexo-theme-next/tar.gz/59bc177b0fdd09a54660bcd883cb72da10f4e94e:
+    resolution: {tarball: https://codeload.github.com/kemchenj/hexo-theme-next/tar.gz/59bc177b0fdd09a54660bcd883cb72da10f4e94e}
+    version: 8.22.0
 
   hexo-util@2.7.0:
     resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
@@ -1330,7 +1331,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-next@8.22.0: {}
+  hexo-theme-next@https://codeload.github.com/kemchenj/hexo-theme-next/tar.gz/59bc177b0fdd09a54660bcd883cb72da10f4e94e: {}
 
   hexo-util@2.7.0:
     dependencies:
