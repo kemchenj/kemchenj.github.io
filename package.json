@@ -22,7 +22,7 @@
   "scripts": {
     "clean": "hexo clean",
     "generate": "hexo generate",
-    "server": "hexo server -o -s",
+    "server": "hexo server -o -s --draft",
     "minify-image": "node minify-image.js"
   },
   "pnpm": {
