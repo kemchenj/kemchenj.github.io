@@ -6,6 +6,9 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "deasync": "^0.1.30",
+    "fontawesome-subset": "^4.5.0",
     "hexo": "^7.3.0",
     "hexo-cli": "^4.3.2",
     "hexo-generator-archive": "^2.0.0",
@@ -17,7 +20,9 @@
     "hexo-renderer-marked": "^7.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-next": "github:kemchenj/hexo-theme-next#59bc177b0fdd09a54660bcd883cb72da10f4e94e"
+    "hexo-theme-next": "github:kemchenj/hexo-theme-next#59bc177b0fdd09a54660bcd883cb72da10f4e94e",
+    "jsdom": "^26.0.0",
+    "purgecss": "^7.0.2"
   },
   "scripts": {
     "clean": "hexo clean",
@@ -27,6 +32,7 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "deasync",
       "hexo-optimize",
       "hexo-util"
     ]
