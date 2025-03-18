@@ -125,9 +125,7 @@ filter_optimize:
     excludes: []
     delivery: []
     # make specific css content inline into the html page
-    inlines:
-      # support full path only
-      - css/main.css
+    inlines: []
   js:
     # minify all js files
     minify: true
