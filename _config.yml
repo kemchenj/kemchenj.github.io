@@ -117,15 +117,13 @@ server:
 
 filter_optimize:
   enable: true
-  # static resource versioning
   versioning: true
   css:
-    # minify all css files
     minify: true
     excludes: []
     delivery: []
-    # make specific css content inline into the html page
-    inlines: []
+    inlines: 
+    - "/css/main.css" # The search.js depends on the main.css, so it must be inline to be loaded ahead of search.js
   js:
     # minify all js files
     minify: true
