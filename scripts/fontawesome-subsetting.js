@@ -38,7 +38,7 @@ if (hexo.env.cmd !== 'server') {
 
         document.querySelectorAll('link[rel="stylesheet"]').forEach(e => {
             if (e.href.includes('font-awesome')) {
-                e.href = "/css/font-awesome.min.css";
+                e.href = "/css/font-awesome.subset.css";
                 e.removeAttribute('crossorigin');
                 e.removeAttribute('integrity');
             }
@@ -68,7 +68,7 @@ if (hexo.env.cmd !== 'server') {
             css: ['./node_modules/@fortawesome/fontawesome-free/css/all.min.css']
         }).then((result) => {
             const purgedCss = result[0].css;
-            fs.writeFileSync('./public/css/font-awesome.min.css', purgedCss);
+            fs.writeFileSync('./public/css/font-awesome.subset.css', purgedCss);
         });
     });
 }
