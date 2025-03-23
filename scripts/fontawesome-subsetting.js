@@ -29,7 +29,7 @@ if (hexo.env.cmd !== 'server') {
         for (const [fsStyle, _] of Object.entries(subsets)) {
             document.querySelectorAll(`.${fsStyle}`).forEach(e => {
                 e.classList.forEach(cls => {
-                    if (cls.startsWith('fa') && cls.length > 2) {
+                    if (cls.startsWith('fa') && cls.length > 3) {
                         subsets[fsStyle].icons.add(cls.slice(3));
                     }
                 })
