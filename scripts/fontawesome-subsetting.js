@@ -23,6 +23,12 @@ if (hexo.env.cmd !== 'server') {
         },
     }
 
+    const fonts = [
+        '/webfonts/fa-regular-400.woff2',
+        '/webfonts/fa-brands-400.woff2',
+        '/webfonts/fa-solid-900.woff2'
+    ]
+
     hexo.extend.filter.register('after_render:html', (html, data) => {
         const dom = new jsdom.JSDOM(html);
         const document = dom.window.document;
@@ -43,6 +49,17 @@ if (hexo.env.cmd !== 'server') {
                 e.removeAttribute('integrity');
             }
         })
+
+        for (const font of fonts) {
+            const link = document.createElement('link');
+            link.setAttribute('rel', 'preload');
+            link.setAttribute('fetchpriority', 'low');
+            link.setAttribute('as', 'font');
+            link.setAttribute('type', 'font/woff2');
+            link.setAttribute('crossorigin', 'anonymous');
+            link.setAttribute('href', font);
+            document.head.appendChild(link);
+        }
 
         return dom.serialize();
     });
