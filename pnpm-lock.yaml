@@ -36,8 +36,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1(chokidar@3.6.0)
       hexo-optimize:
-        specifier: github:next-theme/hexo-optimize#5eb85e25238ac4948b402da717c3c62fd30d2750
-        version: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750
+        specifier: github:kemchenj/hexo-optimize#4814699a843f02579b1ce57c83b7c5adf3e2f20a
+        version: https://codeload.github.com/kemchenj/hexo-optimize/tar.gz/4814699a843f02579b1ce57c83b7c5adf3e2f20a
       hexo-renderer-marked:
         specifier: ^7.0.0
         version: 7.0.0
@@ -101,8 +101,8 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jridgewell/gen-mapping@0.3.5':
-    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
+  '@jridgewell/gen-mapping@0.3.8':
+    resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
     engines: {node: '>=6.0.0'}
 
   '@jridgewell/resolve-uri@3.1.2':
@@ -122,6 +122,36 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
+  '@minify-html/node-darwin-arm64@0.16.4':
+    resolution: {integrity: sha512-9H8hcywDb8zo2jEJfaIAibgsKjMqE+XF7SyqTtJ5H8lVXHxffOkawH4TQtphf9V/x7zXeb/nByAvHe1orJ/RHA==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@minify-html/node-darwin-x64@0.16.4':
+    resolution: {integrity: sha512-P0Krf5nwXbccMrC7ragKAIVOENHFoVRQi+v/8k5pmfjrNlxgXGVILacG0FbUZXsH2Z2XaIo39HxuMf70L6wQlA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@minify-html/node-linux-arm64@0.16.4':
+    resolution: {integrity: sha512-GDRExKf7AmyAdBTdhMkMyzFhJu5VeyJTu0OnNH2ekp69JrhQTrrrt9UYqnjen+7qLIaZB/R8urDRAYNk0HZi5w==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@minify-html/node-linux-x64@0.16.4':
+    resolution: {integrity: sha512-MS/gF1gxJoeHqEGcb1xoUIRv6gVin4cGJszgHPYSikzkK8Yg0p6rVOZdDAE4AAnp/NW0DYNq7fwYgw3igmppFw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@minify-html/node-win32-x64@0.16.4':
+    resolution: {integrity: sha512-SCY7hzIqG1RclU0QzU2MlGtPOujPu6dvaPYqDvhAHpkvRXtX0hnyOrrfqf7GcBdDbASxV8LDlBWpY46JO2cjAA==}
+    cpu: [x64]
+    os: [win32]
+
+  '@minify-html/node@0.16.4':
+    resolution: {integrity: sha512-ykQgl6xcQQDE1shUExeObPSNwAf00DVUt/GrxdjiqFNCVGu7DXK9nuH29sNTyKKYnJJLZAi6OEib2bDfxW3udg==}
+    engines: {node: '>= 8.6.0'}
+    hasBin: true
+
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
 
@@ -133,8 +163,8 @@ packages:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
     engines: {node: '>= 0.6'}
 
-  acorn@8.12.1:
-    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
+  acorn@8.14.1:
+    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -207,10 +237,6 @@ packages:
 
   camel-case@4.1.2:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
-
-  cargo-cp-artifact@0.1.9:
-    resolution: {integrity: sha512-6F+UYzTaGB+awsTXg0uSJA1/b/B3DDJzpKVRu0UmyI7DmNeaAl2RFHuTGIN6fEgpadRxoXGb7gbC1xo4C3IdyA==}
-    hasBin: true
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -501,9 +527,9 @@ packages:
     resolution: {integrity: sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==}
     engines: {node: '>=14'}
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
-    resolution: {tarball: https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750}
-    version: 3.3.0
+  hexo-optimize@https://codeload.github.com/kemchenj/hexo-optimize/tar.gz/4814699a843f02579b1ce57c83b7c5adf3e2f20a:
+    resolution: {tarball: https://codeload.github.com/kemchenj/hexo-optimize/tar.gz/4814699a843f02579b1ce57c83b7c5adf3e2f20a}
+    version: 3.4.0
 
   hexo-pagination@3.0.0:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==}
@@ -1052,8 +1078,8 @@ packages:
   symbol-tree@3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
 
-  terser@5.34.1:
-    resolution: {integrity: sha512-FsJZ7iZLd/BXkz+4xrRTGJ26o/6VTjQytUk8b8OxkwcD2I+79VPJlz7qss1+zE7h8GNIScFqXcDyJ/KqBYZFVA==}
+  terser@5.39.0:
+    resolution: {integrity: sha512-LBAhFyLho16harJoWMg/nZsQYgTrg5jXOn2nCYjRUcZZEdE3qa2zb8QEDRUGVZBW4rlazf2fxkg8tztybTaqWw==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1230,7 +1256,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@jridgewell/gen-mapping@0.3.5':
+  '@jridgewell/gen-mapping@0.3.8':
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1242,7 +1268,7 @@ snapshots:
 
   '@jridgewell/source-map@0.3.6':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
@@ -1251,6 +1277,29 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@minify-html/node-darwin-arm64@0.16.4':
+    optional: true
+
+  '@minify-html/node-darwin-x64@0.16.4':
+    optional: true
+
+  '@minify-html/node-linux-arm64@0.16.4':
+    optional: true
+
+  '@minify-html/node-linux-x64@0.16.4':
+    optional: true
+
+  '@minify-html/node-win32-x64@0.16.4':
+    optional: true
+
+  '@minify-html/node@0.16.4':
+    optionalDependencies:
+      '@minify-html/node-darwin-arm64': 0.16.4
+      '@minify-html/node-darwin-x64': 0.16.4
+      '@minify-html/node-linux-arm64': 0.16.4
+      '@minify-html/node-linux-x64': 0.16.4
+      '@minify-html/node-win32-x64': 0.16.4
 
   a-sync-waterfall@1.0.1: {}
 
@@ -1261,7 +1310,7 @@ snapshots:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
-  acorn@8.12.1: {}
+  acorn@8.14.1: {}
 
   agent-base@7.1.3: {}
 
@@ -1319,8 +1368,6 @@ snapshots:
     dependencies:
       pascal-case: 3.1.2
       tslib: 2.7.0
-
-  cargo-cp-artifact@0.1.9: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -1624,13 +1671,13 @@ snapshots:
     dependencies:
       picocolors: 1.1.1
 
-  hexo-optimize@https://codeload.github.com/next-theme/hexo-optimize/tar.gz/5eb85e25238ac4948b402da717c3c62fd30d2750:
+  hexo-optimize@https://codeload.github.com/kemchenj/hexo-optimize/tar.gz/4814699a843f02579b1ce57c83b7c5adf3e2f20a:
     dependencies:
+      '@minify-html/node': 0.16.4
       bluebird: 3.7.2
-      cargo-cp-artifact: 0.1.9
       lightningcss: 1.29.3
       micromatch: 4.0.8
-      terser: 5.34.1
+      terser: 5.39.0
 
   hexo-pagination@3.0.0: {}
 
@@ -2231,10 +2278,10 @@ snapshots:
 
   symbol-tree@3.2.4: {}
 
-  terser@5.34.1:
+  terser@5.39.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.12.1
+      acorn: 8.14.1
       commander: 2.20.3
       source-map-support: 0.5.21
 
