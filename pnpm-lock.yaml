@@ -12,8 +12,8 @@ importers:
         specifier: ^6.7.2
         version: 6.7.2
       fontawesome-subset:
-        specifier: ^4.5.0
-        version: 4.5.0(@fortawesome/fontawesome-free@6.7.2)
+        specifier: ^4.6.0
+        version: 4.6.0(@fortawesome/fontawesome-free@6.7.2)
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -496,8 +496,8 @@ packages:
     resolution: {integrity: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==}
     engines: {node: '>= 0.8'}
 
-  fontawesome-subset@4.5.0:
-    resolution: {integrity: sha512-PsrfSLd8oOglic5Wv7q0cy5HYmRziEuShlxu0qWKwMNV6bym2vfQlq2fRYKZlKyCCyVc5FFU4eTIDz4R4G9vBg==}
+  fontawesome-subset@4.6.0:
+    resolution: {integrity: sha512-StfmCPwQUUt9wsIJDK404QDz/FkidvpNB5mZy2X36DRPorgXj9VslUwdlijxrHqPIXoA0baC0ucvdOCEQeIHEQ==}
     peerDependencies:
       '@fortawesome/fontawesome-free': '>=5.12.0'
       '@fortawesome/fontawesome-pro': '>=5.12.0'
@@ -565,8 +565,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  harfbuzzjs@0.4.5:
-    resolution: {integrity: sha512-dDMkI7mWWcYTJtyUZmS6A6SfzITEjJyxaFQCup8wGlli9eaWTEjoS/gDUGnv6PQlXExOXWhWY1Hq/h3J03Tfow==}
+  harfbuzzjs@0.4.11:
+    resolution: {integrity: sha512-9hAFsVuTeFXbIutHA+zBzEghBdGkND/DROvRj5AmVbdbBMHMhiMMYhXZJJlOw3qw0mFBkcptwWnp34dIErbgaw==}
 
   has-symbols@1.1.0:
     resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
@@ -1346,9 +1346,9 @@ packages:
   xmlchars@2.2.0:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
 
-  yaml@2.7.0:
-    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
-    engines: {node: '>= 14'}
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+    engines: {node: '>= 14.6'}
     hasBin: true
 
   yocto-queue@0.1.0:
@@ -1756,12 +1756,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fontawesome-subset@4.5.0(@fortawesome/fontawesome-free@6.7.2):
+  fontawesome-subset@4.6.0(@fortawesome/fontawesome-free@6.7.2):
     dependencies:
       lodash: 4.17.21
       mkdirp: 3.0.1
       subset-font: 2.4.0
-      yaml: 2.7.0
+      yaml: 2.8.1
     optionalDependencies:
       '@fortawesome/fontawesome-free': 6.7.2
 
@@ -1842,7 +1842,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  harfbuzzjs@0.4.5: {}
+  harfbuzzjs@0.4.11: {}
 
   has-symbols@1.1.0: {}
 
@@ -2526,7 +2526,7 @@ snapshots:
   subset-font@2.4.0:
     dependencies:
       fontverter: 2.0.0
-      harfbuzzjs: 0.4.5
+      harfbuzzjs: 0.4.11
       lodash: 4.17.21
       p-limit: 3.1.0
 
@@ -2662,6 +2662,6 @@ snapshots:
 
   xmlchars@2.2.0: {}
 
-  yaml@2.7.0: {}
+  yaml@2.8.1: {}
 
   yocto-queue@0.1.0: {}
