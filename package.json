@@ -13,7 +13,7 @@
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^4.0.0",
-    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-optimize": "github:kemchenj/hexo-optimize#4814699a843f02579b1ce57c83b7c5adf3e2f20a",
     "hexo-renderer-marked": "^7.0.0",
