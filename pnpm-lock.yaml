@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fortawesome/fontawesome-free':
-        specifier: ^7.0.1
-        version: 7.0.1
+        specifier: ^7.1.0
+        version: 7.1.0
       fontawesome-subset:
         specifier: ^4.6.0
-        version: 4.6.0(@fortawesome/fontawesome-free@7.0.1)
+        version: 4.6.0(@fortawesome/fontawesome-free@7.1.0)
       hexo:
         specifier: ^8.0.0
         version: 8.0.0(chokidar@3.6.0)
@@ -108,8 +108,8 @@ packages:
     resolution: {integrity: sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==}
     engines: {node: '>=18'}
 
-  '@fortawesome/fontawesome-free@7.0.1':
-    resolution: {integrity: sha512-RLmb9U6H2rJDnGxEqXxzy7ANPrQz7WK2/eTjdZqyU9uRU5W+FkAec9uU5gTYzFBH7aoXIw2WTJSCJR4KPlReQw==}
+  '@fortawesome/fontawesome-free@7.1.0':
+    resolution: {integrity: sha512-+WxNld5ZCJHvPQCr/GnzCTVREyStrAJjisUPtUxG5ngDA8TMlPnKp6dddlTpai4+1GNmltAeuk1hJEkBohwZYA==}
     engines: {node: '>=6'}
 
   '@isaacs/cliui@8.0.2':
@@ -1415,7 +1415,7 @@ snapshots:
 
   '@csstools/css-tokenizer@3.0.4': {}
 
-  '@fortawesome/fontawesome-free@7.0.1': {}
+  '@fortawesome/fontawesome-free@7.1.0': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1781,14 +1781,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fontawesome-subset@4.6.0(@fortawesome/fontawesome-free@7.0.1):
+  fontawesome-subset@4.6.0(@fortawesome/fontawesome-free@7.1.0):
     dependencies:
       lodash: 4.17.21
       mkdirp: 3.0.1
       subset-font: 2.4.0
       yaml: 2.8.1
     optionalDependencies:
-      '@fortawesome/fontawesome-free': 7.0.1
+      '@fortawesome/fontawesome-free': 7.1.0
 
   fontverter@2.0.0:
     dependencies:
