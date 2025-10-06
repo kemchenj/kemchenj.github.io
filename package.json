@@ -6,7 +6,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.0.1",
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "fontawesome-subset": "^4.6.0",
     "hexo": "^8.0.0",
     "hexo-cli": "^4.3.2",
