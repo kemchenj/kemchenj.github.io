@@ -8,7 +8,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "fontawesome-subset": "^4.6.0",
-    "hexo": "^8.0.0",
+    "hexo": "^8.1.0",
     "hexo-cli": "^4.3.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
