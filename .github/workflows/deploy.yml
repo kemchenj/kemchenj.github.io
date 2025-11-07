@@ -25,18 +25,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v5
 
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 10
     - name: Setup node
       uses: actions/setup-node@v6
       with:
         node-version: '*'
     - name: Install Dependencies
-      run: pnpm install
+      run: npm ci
     - name: Generate Static Site
-      run: pnpm run generate
+      run: npm run generate
 
     - name: Setup Pages
       uses: actions/configure-pages@v5

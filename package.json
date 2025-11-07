@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
@@ -28,11 +28,5 @@
     "generate": "hexo generate",
     "server": "hexo server -o -s --draft",
     "minify-image": "node minify-image.js"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "hexo-optimize",
-      "hexo-util"
-    ]
   }
 }
