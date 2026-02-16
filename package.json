@@ -20,7 +20,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "github:kemchenj/hexo-theme-next#59bc177b0fdd09a54660bcd883cb72da10f4e94e",
-    "jsdom": "^28.0.0",
+    "jsdom": "^28.1.0",
     "purgecss": "^8.0.0"
   },
   "scripts": {
