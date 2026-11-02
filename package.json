@@ -24,6 +24,7 @@
     "purgecss": "^8.0.0"
   },
   "scripts": {
+    "test": "node --test",
     "clean": "hexo clean",
     "generate": "hexo generate",
     "server": "hexo server -o -s --draft",
