@@ -32,15 +32,25 @@ if (hexo.env.cmd !== 'server') {
     hexo.extend.filter.register('after_render:html', (html, data) => {
         const dom = new jsdom.JSDOM(html);
         const document = dom.window.document;
-        for (const [fsStyle, _] of Object.entries(subsets)) {
-            document.querySelectorAll(`.${fsStyle}`).forEach(e => {
-                e.classList.forEach(cls => {
-                    if (cls.startsWith('fa') && cls.length > 3) {
-                        subsets[fsStyle].icons.add(cls.slice(3));
-                    }
-                })
-            })
-        }
+        const collectIcons = root => {
+            for (const [fsStyle, subset] of Object.entries(subsets)) {
+                root.querySelectorAll(`.${fsStyle}`).forEach(e => {
+                    e.classList.forEach(cls => {
+                        if (cls.startsWith('fa') && cls.length > 3) {
+                            subset.icons.add(cls.slice(3));
+                        }
+                    });
+                });
+            }
+
+            // Template contents are separate document fragments, including nested templates.
+            root.querySelectorAll('template').forEach(template => {
+                if (template.content) {
+                    collectIcons(template.content);
+                }
+            });
+        };
+        collectIcons(document);
 
         document.querySelectorAll('link[rel="stylesheet"]').forEach(e => {
             if (e.href.includes('font-awesome')) {
