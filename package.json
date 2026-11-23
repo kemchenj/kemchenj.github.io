@@ -21,7 +21,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "^8.29.0",
     "jsdom": "^31.0.1",
-    "purgecss": "^8.0.0"
+    "purgecss": "^9.1.0"
   },
   "scripts": {
     "clean": "hexo clean",
